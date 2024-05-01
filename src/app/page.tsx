@@ -12,7 +12,7 @@ const App = () => {
 }
 const Home = () => {
     return (
-        <Suspense>
+        <Suspense fallback={<div> Loading... </div>}>
             <App/>
         </Suspense>
 
